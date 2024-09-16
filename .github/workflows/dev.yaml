@@ -28,4 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/vlinkpay-pwa  # Adjust the path to your dist folder
+          publish_dir: ./dist/vlinkpay-pwa/browser  # Adjust the path to your dist folder
+
